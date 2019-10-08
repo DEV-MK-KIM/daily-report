@@ -7,10 +7,23 @@
 
 <script>
 import Nav from './components/Nav'
+import { mapGetters, mapActions } from 'vuex'
+
 export default {
   components: {
   Nav
-}
+},
+// methods: {
+//   init(){
+//     this.getSettings()
+//   },
+//   getSettings(){
+
+//   }
+// },
+// created(){
+//   this.init()
+// }
 }
 </script>
 
